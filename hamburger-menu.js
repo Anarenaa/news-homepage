@@ -5,4 +5,5 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
     document.querySelector('.black-background').classList.toggle("active");
+    document.querySelector('.header').classList.toggle("dark");
 })
